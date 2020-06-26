@@ -53,3 +53,14 @@ class Manager:
                 else:
                     return result
 
+
+class Node:
+    def __init__(self, name, mark):
+        self.name = name
+        self.mark = mark
+        self.right = None
+        self.left = None
+        self.parent = None
+
+    def __repr__(self):
+        return self.name
